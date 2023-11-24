@@ -23,7 +23,8 @@ public class Main{
         number.display();
         DisplayValue(6);
 }
-    public  static<T> void  DisplayValue (T value){
+    public  static<T,V> V DisplayValue (T value,V string){
         System.out.println("The value : "+ value);
+        return string;
     }
 }
