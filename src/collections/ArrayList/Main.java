@@ -21,7 +21,7 @@ public class Main{
         //generics
         Generic<Integer, String> number= new Generic<>(5," weee we");
         number.display();
-        DisplayValue(6);
+        DisplayValue(6,"Innocent");
 }
     public  static<T,V> V DisplayValue (T value,V string){
         System.out.println("The value : "+ value);
