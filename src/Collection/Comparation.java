@@ -30,7 +30,7 @@ class SortbyRollNo implements Comparator<Student>{
      //The result of this comparison is used by sorting algorithms (e.g., when using Collections.sort or List.sort) to determine the order of the elements. If the result is negative, it means a should come before b in the sorted order. If the result is positive, it means a should come after b. If the result is 0, it means the objects are considered equal in terms of sorting.
  };
 }
-class Sortbyname implements Comparator<Student> {
+class Sortbyname implements Comparator<Student>     {
 
     // Method
     // Sorting in ascending order of name
